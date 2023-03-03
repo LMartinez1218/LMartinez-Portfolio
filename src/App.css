@@ -325,7 +325,8 @@ header {
 .message-input-field {
   display: flex;
   margin: 10px;
-  border-radius: 35px;
+  border-radius: 10px;
+  align-items: center;
 }
 
 

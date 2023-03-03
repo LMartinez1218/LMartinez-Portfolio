@@ -46,7 +46,7 @@ return (
 
 <div className="message">
     <label htmlFor="message" className="message-input">Message</label>
-    <textarea id="message" className="message-input-field" onChange={(e) => setMessage(e.target.value)}/>
+    <textarea placeholder="Send a Message" className="message-input-field" onChange={(e) => setMessage(e.target.value)}/>
 </div>
 <button type="submit" className="submit-btn">Submit</button>
 
